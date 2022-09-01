@@ -1,0 +1,142 @@
+  * {
+    border-style: initial;
+  }
+  
+  p {
+    color: green;
+  }
+  
+  h1 {
+    color: beige;
+    border-style: solid;
+    text-align: center;
+  }
+  
+  .title {
+    color: white;
+    border-color: teal;
+  }
+
+  .undertitle {
+    text-align: center;
+    color: white;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  #article-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  a[href*='florence'] {
+    color: lightgreen;
+  }
+  
+  a[href*='beijing'] {
+    color: lightgreen;
+  }
+  
+  a[href*='seoul'] {
+    color: lightgreen;
+  }
+  
+  a:hover {
+    color:lightgreen;
+  }
+  
+  #publish-time {
+    color: lightgray;
+    text-align: initial;
+  }
+  
+  h5 {
+    color: white;
+  }
+  
+  .author-class {
+    color: pink;
+    text-align: initial;
+  }
+  
+  #author-id {
+    color: cornflowerblue;
+  }
+  
+  h2.destination {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-style: solid;
+    border-color: teal;
+    color: whitesmoke;
+  }
+  
+  body {
+    background-color: #1B2430;
+    color: white;
+  }
+
+  * {box-sizing:border-box}
+  body {font-family: Verdana,sans-serif;margin:0}
+
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides1, .mySlides2 {display: none;}
+  img {vertical-align: middle;}
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+  .listBorder {
+    border-style: solid;
+    border-color: teal;
+    color: white;
+  }
