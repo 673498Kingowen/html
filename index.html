@@ -1,42 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arch Corporations</title>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="/bilder/ArchLogo.png"></a>
+                <div class="nav-lenker">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CAREER</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
 
-        <h1><center>Hello There!</center></h1>
+            <div class="text-box">
+                <h1>Welcome to ARCH Corporations</h1>
+                <p>We are one of the most used Arche Linux Distros, our distro is known to be fast and reliable for computer engineers.<br/>
+                We welcome everyone to try our latest version of LunarARCH.</p>
+                <a href="" class="linkBtn">Click here to learn more.</a>
+            </div>
+        </section>
 
-        <div class="button">
-        <h5 id="DarkModetext">Dark Mode is OFF</h5>
-    <button onclick="darkMode()">Darkmode</button>
-    <button onclick="lightMode()">LightMode</button>
-        </div>
+        <section class="distros">
+            <h1>LunarArch Distro</h1>
+            <p>LunarARCH is a modern distro for ARCH users on Linux OS.<br/> 
+            We have made 3 different distros based on ARCH which are KDE Plasma, KDE macOS and i3wm.</p>
 
+            <div class="row">
+                <div class="distros-col">
+                    <h3>KDE Plasma</h3>
+                    <p>Use KDE Plasma to surf the web; keep in touch with colleagues, friends and family; manage your files, enjoy music and videos; 
+                    and get creative and productive at work. Do it all in a beautiful environment that adapts to your needs, 
+                    and with the safety, privacy-protection and peace of mind that the best Free Open Source Software has to offer</p>
+                </div>
 
-    <script>
+                <div class="distros-col">
+                    <h3>KDE macOS</h3>
+                    <p>KDE macOS is just like the previous KDE Plasma with different customization. We have customized it to users that are more familiar with macOS.
+                    We tried making it as similar to macOS, however it is still a linux based operativsystem. Otherwise the keyboard layout and other configuration are similar to macintosh</p>
+                </div>
 
-        
-      function darkMode() {
-        var element = document.body;
-        var content = document.getElementById("DarkModetext");
-        element.className = "dark-mode";
-        content.innerText = "Dark Mode is ON";
-      }
+                <div class="distros-col">
+                    <h3>i3wm</h3>
+                    <p>i3wm is a dynamic tiling window manager inspired by wmii that is primarily targeted at developers and advanced users. The stated goals for i3 include clear documentation,
+                    proper multi-monitor support, a tree structure for windows, and different modes like in vim.</p>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="image-col">
+                    <img src="/bilder/KDE ARCH.jpg">
+                </div>
 
-      function lightMode() {
-        var element = document.body;
-        var content = document.getElementById("DarkModetext");
-        element.className = "light-mode";
-        content.innerText = "Dark Mode is OFF";
-      }
-    </script>
+                <div class="image-col">
+                    <img src="/bilder/Plasma Arch.jpg">
+                </div>
+
+                <div class="image-col">
+                    <img src="/bilder/i3wm Arch.jpg">
+                </div>
+
+            </div>
+
+        </section>
     </body>
 </html>
-
